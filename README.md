@@ -36,6 +36,6 @@ Port to be used by Ubooquity default port is 8085.
 ## Docker run command:
 
 ```
-docker run -d -p 8085:8085 -v /*Ubooquity_cofing_dir*:/config -v /*your_media_location*:/media -v /etc/localtime:/etc/localtime:ro --name=Ubooquity hurricane/Ubooquity
+docker run -d -p 8085:8085 -v /*Ubooquity_cofing_dir*:/config -v /*your_media_location*:/media -v /etc/localtime:/etc/localtime:ro --name=Ubooquity hurricane/ubooquity
 
 ```
