@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "---> Installing Ubooquity in volume..."
+[[ ! -d /config ]] && mkdir /config
+[[ ! -f /config/Ubooquity.jar ]] && cp /UbooquityInstall/Ubooquity.jar /config
+chown -R nobody:users /config
