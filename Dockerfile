@@ -39,7 +39,7 @@ RUN pip --no-input install circus;\
 RUN mkdir /etc/circus.d /etc/setup.d
 
 # Install Ubooquity
-RUN wget http://vaemendis.net/ubooquity/downloads/Ubooquity-1.6.0.zip && unzip Ubooquity-1.6.0.zip -d UbooquityInstall
+RUN wget http://vaemendis.net/ubooquity/downloads/Ubooquity-1.7.0.zip && unzip Ubooquity-1.7.0.zip -d UbooquityInstall
 
 # Exposed config volume
 VOLUME /config
